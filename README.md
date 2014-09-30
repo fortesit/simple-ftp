@@ -48,8 +48,11 @@ Linux(e.g.Ubuntu)/SunOS
 
 ##Note
  You need to have a password file (access.txt) in order to login.
+
  The sample file provided contain the test account.
+
  User:alice
+
  Password:pass1
  
 ##Example
