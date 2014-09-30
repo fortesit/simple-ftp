@@ -21,9 +21,13 @@ Last modified: 2014-09-30 22:11
 
 ##Required files:
  MakeFile
+
  myftp.h
+
  myftpclient.c
+
  myftpserver.c
+
  access.txt
 
 ##Usage(Server)
