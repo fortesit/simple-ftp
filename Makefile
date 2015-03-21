@@ -30,13 +30,13 @@ endif
 
 
 ifeq ($(UNAME), Darwin)
-all: client_unix server_unix
+all: client_mac server_mac
 
-client_unix: myftpclient.c
+client_mac: myftpclient.c
 	$(CC) -o $@ $< 
 
-server_unix: myftpserver.c
-	$(CC) -D Darwin -o $@ $< -lpthread
+server_mac: myftpserver.c
+	$(CC) -D Linux -o $@ $< -lpthread
 	
 clean:
 	rm -rf client_mac server_mac
